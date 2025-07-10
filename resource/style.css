@@ -1,0 +1,60 @@
+body {
+  background-color: #8c1111;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: #000000;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  width: 100%;
+  border: 2px solid white;
+  margin: px;
+  padding: 0px;
+}
+button {
+  background-color: #262524;
+  color: white;
+  border: 2px solid #333231;
+  border-radius: 4px;
+}
+.title {
+  color: white;
+  float: right;
+}
+button:hover {
+  background-color: grey;
+  color: black;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+.full {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+/* Control the left side */
+.left {
+  left: 0;
+}
+/* Control the right side */
+.right {
+  right: 0;
+}
+.centre {
+  text-align: center;
+}
+img {
+  margin: 0px;
+  padding: 0px;
+}
